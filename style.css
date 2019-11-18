@@ -123,9 +123,7 @@ ul {
 	padding-left: 10%
 }
 
-/* CSS Imported Timeline
-
-*/
+/* CSS Imported Timeline*/
 
 #experience {
 	background-color: #eee;
@@ -210,8 +208,6 @@ ul {
   margin-left: -15px;
 }
 
-
-
 .timeline-card {
   padding: 0 !important;
 }
@@ -241,8 +237,6 @@ ul {
   left: 2rem;
 }
 
-
-
 @media screen and (max-width: 768px) {
   .timeline::before {
     left: 50px;
@@ -269,3 +263,7 @@ ul {
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
   }
+
+  /*CSS Imported Timeline code over*/
+
+
