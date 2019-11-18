@@ -1,0 +1,129 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	margin :0;
+	overflow-x: hidden;
+}
+
+h1 { 
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	font-size: 4em;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Kanit', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	color: #597081;
+	text-align: center;
+	margin: 1em 0;
+}
+
+h3 {
+	margin: 0 0 3px 0;
+	padding: 0;
+}
+
+h4 {
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 0;
+}
+
+
+.navbar {
+	display: flex;
+	background-color: #8DA9C4;
+	flex: 1;
+	text-decoration: none;
+	color:#fff;
+	padding: 20px 0 20px 5%;
+	justify-content: space-between;
+}
+
+.navbar div  {
+	display: flex;
+	justify-content: center;
+	padding: 0 20px;
+}
+
+.navbar div a {
+	text-decoration: none;
+	color:#fff;
+}
+
+#banner {
+	background-image: url(https://miro.medium.com/max/11150/0*4K1fPIhorKUTFUYJ);
+	background-size: cover;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#banner h1 {
+	color: #fff;
+}
+
+#about .row {
+	display: flex;
+}
+
+#about .column-left {
+	flex: 30%;
+}
+
+#about .column-right {
+	flex: 70%;
+	padding-right: 15%;
+}
+
+.profile-sheet {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.profile-sheet img { 	
+	min-width: 20%;
+	max-width: 45%;
+}
+
+.profile-sheet ul {
+ padding-top: 1em;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	flex: 1;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+}
+
+
+.blue-background {
+	background-color: #274156;
+	color: #fff;
+	margin: 0;
+	font-size: 25px;
+	padding: 40px 5% 60px 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.web-exp {
+	padding-left: 10%
+}
+
+.nonweb-exp {
+	padding-left: 10%
+}
