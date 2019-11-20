@@ -114,7 +114,7 @@ p {
 	background-color: #274156;
 	color: #fff;
 	margin: 0;
-	font-size: 25px;
+	font-size: 20px;
 	padding: 40px 10px;
 	display: flex;
 	justify-content: space-around;
@@ -165,7 +165,7 @@ p {
 
 .timeline-item {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
@@ -290,9 +290,9 @@ p {
   }
   h3 {
   	font-size: 20px;
-
   	font-weight: bold;
   }
 }
   /*CSS Imported Timeline code over*/
+
 
