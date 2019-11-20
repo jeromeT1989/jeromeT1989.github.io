@@ -32,11 +32,11 @@ p {
 .navbar {
 	position: fixed;
 	display: flex;
+	justify-content: space-between;
 	background-color: #8DA9C4;
 	text-decoration: none;
 	color:#fff;
 	padding: 20px 0 20px 80px;
-	justify-content: space-between;
 	z-index: 5;
 	width: 100%;
 }
@@ -304,7 +304,18 @@ p {
   }
 }
   /*CSS Imported Timeline code over*/
+ #contact h2 {
+ 	background-color: #274156;
+ 	color: #fff;
+ 	margin: 0;
+ 	padding-bottom: 0;
+ }
 
-#contact {
-	padding-bottom: : 60px;
+.links {
+	background-color: #274156;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 0;
 }
