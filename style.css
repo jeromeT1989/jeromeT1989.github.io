@@ -120,6 +120,12 @@ p {
 	justify-content: space-around;
 }
 
+#skills h2 {
+	background-color: #274156;
+	color: #FFF;
+	margin: 1em 0 0 0;
+}
+
 .blue-background ul {
 	list-style-type: none;
 	padding: 0;
@@ -292,7 +298,13 @@ p {
   	font-size: 20px;
   	font-weight: bold;
   }
+
+  #skills h2 {
+  	padding-bottom: 0;
+  }
 }
   /*CSS Imported Timeline code over*/
 
-
+#contact {
+	padding-bottom: : 60px;
+}
