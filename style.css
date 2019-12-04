@@ -45,7 +45,6 @@ ul {
 	padding: 11px 0 11px 80px;
 	z-index: 5;
 	width: 100%;
-
 }
 
 .navbar div  {
@@ -60,11 +59,6 @@ ul {
 }
 
 /*Burger menu*/
-
-div a, .button  {
-	text-decoration: none;
-	color: #333;
-}
 
 header {
 	background-color: #8DA9C4;
@@ -93,7 +87,6 @@ nav {
 	margin-right: 32px;
 	color:#fff;
 	background-color: #8DA9C4;
-
 }
 
 #hamburger-overlay {
@@ -265,7 +258,7 @@ nav {
  	color: #FFF;
  	margin: 0;
  	padding-bottom: 0;
- }
+}
 
 .links {
 	background-color: #274156;
@@ -347,7 +340,6 @@ nav {
   border-width: 10px 0 10px 15px;
   border-color: transparent transparent transparent #f5f5f5;
 }
-
 
 .timeline-img {
   width: 30px;
@@ -464,21 +456,25 @@ nav {
 		display: none;
 	}
 
-  .timeline::before {
+  	.timeline::before {
     left: 50px;
-  }
-  .timeline .timeline-img {
+  	}
+
+  	.timeline .timeline-img {
     left: 50px;
-  }
-  .timeline .timeline-content {
+  	}
+
+  	.timeline .timeline-content {
     max-width: 100%;
     width: auto;
     margin-left: 70px;
-  }
-  .timeline .timeline-item:nth-child(even) .timeline-content {
+  	}
+
+  	.timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
-  }
-  .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+  	}
+
+  	.timeline .timeline-item:nth-child(odd) .timeline-content::after {
     content: "";
     position: absolute;
     border-style: solid;
@@ -488,6 +484,5 @@ nav {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
-  }
-
+  	}
 }
