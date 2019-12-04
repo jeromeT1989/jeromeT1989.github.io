@@ -33,6 +33,12 @@ ul {
 	list-style: none;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
 
 .navbar {
 	position: fixed;
@@ -133,7 +139,6 @@ nav {
  	vertical-align: middle;
  	width: 24px;
  	height: 24px;
- 	border: 1px solid red;
  	margin-right: 16px;
  	margin-bottom: 4px;
 }
@@ -190,6 +195,11 @@ nav {
 	text-align: center;
 }
 
+#about {
+	margin-top: -70px;
+	padding-top: 70px;
+}
+
 #about .column-left {
 	width: 30%;
 }
@@ -222,9 +232,14 @@ nav {
 	color: #FFF;
 	margin: 0;
 	font-size: 20px;
-	padding: 40px 10px;
+	padding: 30px 10px;
 	display: flex;
 	justify-content: space-around;
+}
+
+#skills {
+	margin-top: -70px;
+	padding-top: 30px;
 }
 
 #skills h2 {
@@ -272,6 +287,8 @@ nav {
 
 #experience {
 	background-color: #eee;
+	margin-top: -70px;
+	padding-top: 70px;
 }
 
 .timeline-text {
