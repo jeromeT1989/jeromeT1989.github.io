@@ -17,25 +17,37 @@
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
-	<!--Navigation : À faire : fixer barre de navigation en haut de l'écran--> 
-	<nav class="navbar">
-		<div>
-			<div id="navbar-home"><a href="#home">ACCUEIL</a></div>
-			<div id="navbar-about"><a href="#about">PROFIL</a></div>
-			<div id="navbar-skills"><a href="#skills">COMPETENCES</a></div>
-			<div id="navbar-experience"><a href="#experience">PARCOURS</a></div>
-			<div id="navbar-contact"><a href="#contact">ME CONTACTER</a></div>	
-		</div>	
-	</nav>
+<body>	
+	<header>	
+		<div id="hamburger">
+			<div id="hamburger-content">
+				<nav class="navbar">
+										
+						<div><a href="#home">ACCUEIL</a></div>
+						<div><a href="#about">PROFIL</a></div>
+						<div><a href="#skills">COMPETENCES</a></div>
+						<div><a href="#experience">PARCOURS</a></div>
+						<div><a href="#contact">ME CONTACTER</a></div>	
+													
+				</nav>		
+			</div>
+			<button id="hamburger-button">&#9776;</button>
+			<div id="hamburger-sidebar">
 
-	<!--Bannière-->
-	<header id="banner" id="home">
-		<h1 >DEVELOPPEUR WEB EN DEVENIR</h1>
+				<div id="hamburger-sidebar-body"></div>			
+			</div>
+			<div id="hamburger-overlay"></div>
+		</div>
+		
 	</header>
 
+
+		<!--Bannière-->
+	<div id="banner" ><h1 >DEVELOPPEUR WEB EN DEVENIR</h1></div>
+	
 	<main>
 
 		<!--Profil-->
@@ -50,7 +62,7 @@
 							<li><strong>Jérôme TRANCART</strong></li>
 							<li>30 ans</li>
 							<li>07 66 25 74 96</li>
-							<li>jerome(dot)trancart(at)gmail(dot)com</li>
+							<li>jerome.trancart(at)gmail.com</li>
 							<li>Français</li>
 							<li>Rouen, 76000</li>						
 						</ul>
@@ -215,11 +227,7 @@
 		</section>
 	</main>
 
-	
-	<!--jQuery first, then Popper.js, then Bootstrap JS-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 
