@@ -89,8 +89,8 @@ nav {
 	padding: 0;
 	vertical-align: top;
 	line-height: 70px;
-	float: right;
-	margin-right: 32px;
+	float: left;
+	margin-left: 32px;
 	color:#fff;
 	background-color: #8DA9C4;
 }
