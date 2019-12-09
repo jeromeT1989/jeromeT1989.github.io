@@ -218,18 +218,49 @@
 		<!--Projets : section vide - invisible pour le moment
 		<section id="projects"><h2>Mes projets</h2>
 		</section>-->
-
-		<section id="contact">
+	</main>
+		<footer id="contact">
 			<h2>Me contacter</h2>
-			<div class="links">
+
+			<!-- Form from formspreen.io -->			
+			<section id=contactForm>
+				<div class="col-1-2">
+					<p>Pour tous renseignements complémentaires, n'hésitez pas à m'envoyer un message, je reste à votre disposition.</p>
+
+					<p>Il vous suffit pour cela de compléter le formulaire ci-contre.</p>
+
+					<p>Je suis également joignable par téléphone, tous les matins entre 9h et 12h, et tous les soirs entre 18h et 21h.</p>
+				</div>
+				<div class="col-1-2">
+					<form
+  						action="https://formspree.io/xbjjbagp"
+  						method="POST"
+					>
+						<label>
+    						<input type="text" name="_replyto" placeholder="Votre nom" required>
+  						</label>
+  						<label>
+    						<input type="text" name="_replyto" placeholder="Votre email" required>
+  						</label>
+  						<label>
+    						<textarea name="message" placeholder="Votre message"></textarea>
+  						</label>
+
+  <!-- your other form fields go here -->
+
+  						<button type="submit" style="width: 100%">Envoyer</button>
+					</form>
+				</div>
+			</section>
+			<section class="links">
 				<div><a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-trancart-1184b0198/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
 				<div><a href="https://github.com/jerometrancart" target="_blank"><i class="fab fa-github"></i></a></div>
 				<div><a href="https://twitter.com/TrancartJ" target="_blank"><i class="fab fa-twitter"></i></a></div>
-				<div><a href="./CV.pdf" download="CV.pdf" target="_blank"><i class="far fa-address-card"></i>CV.pdf</a></div>
-			</div>
-		<!--À faire : créer mailto, créer icone-lien vers profil linkedin, vers GitHub, vers CV.pdf-->
-		</section>
-	</main>
+				<div><a href="./CV.pdf" download="CV.pdf" target="_blank"><i class="far fa-address-card"></i><p id=cvpdf>CV.pdf</p></a></div>
+			</section>
+
+		</footer>
+	
 
     <script type="text/javascript" src="main.js"></script>
     <script src="https://kit.fontawesome.com/a8730b148b.js" crossorigin="anonymous"></script>

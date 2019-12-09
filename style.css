@@ -89,8 +89,8 @@ nav {
 	padding: 0;
 	vertical-align: top;
 	line-height: 70px;
-	float: left;
-	margin-left: 32px;
+	float: right;
+	margin-right: 32px;
 	color:#fff;
 	background-color: #8DA9C4;
 }
@@ -240,21 +240,6 @@ nav {
 	padding-left: 10%
 }
 
- #contact h2 {
- 	background-color: #274156;
- 	color: #FFF;
- 	margin: 0;
- 	padding-bottom: 0;
-}
-
-.links {
-	background-color: #274156;
-	text-decoration: none;
-	display: flex;
-	justify-content: space-around;
-	padding: 50px 0;
-}
-
 /* CSS Imported Timeline*/
 
 #experience {
@@ -384,8 +369,58 @@ nav {
   top: 0;
   right: 0;
 }
+/*CSS Imported Timeline code over*/
+
+#contact {
+	background-color: #274156;
+}
+
+#contact h2 {
+ 	color: #FFF;
+ 	margin: 0;
+}
+
+#contactForm {
+	display: flex;
+	color : #fff;
+	padding : 0 20px;
+}
+
+#contactForm .col-1-2 {
+    padding: 0 20px;
+    width: 50%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input, textarea, .input {
+    font-size: .8em;
+    color: #666260;
+    border: 1px solid rgba(0,0,0,.25);
+    padding: .9em;
+    width: 100%;
+}
+
+form button, input {
+    line-height: normal;
+    width: 100%;
+}
+
+form button, input, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
 
 .links {
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 0;
 	font-size: 3em;	
 }
 
@@ -393,12 +428,22 @@ nav {
 	color: #fff;
 }
 
-/*CSS Imported Timeline code over*/
-
+#cvpdf {
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
 
 /*Media queries*/
 
 @media screen and (max-width: 768px) {
+	#contactForm {
+	display: block;
+	}
+
+	#contactForm .col-1-2 {
+		width: 100%
+	}
 
 	header {
 		height: 70px;
