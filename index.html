@@ -25,11 +25,11 @@
 		<div id="hamburger">
 			<div id="hamburger-content">
 				<nav class="navbar">										
-						<div class="navbarLink"><a href="https://jerometrancart.github.io"><i class="fas fa-home"></i>&emsp;ACCUEIL</a></div>
-						<div class="navbarLink"><a href="#about"><i class="fas fa-user"></i>&emsp;PROFIL</a></div>
-						<div class="navbarLink"><a href="#skills"><i class="fas fa-book"></i>&emsp;COMPETENCES</a></div>
-						<div class="navbarLink"><a href="#experience"><i class="fas fa-suitcase"></i>&emsp;PARCOURS</a></div>
-						<div class="navbarLink"><a href="#contact"><i class="fas fa-address-book"></i>&emsp;ME CONTACTER :</a></div>														
+						<div class="navbarLink anchor"><a href="https://jerometrancart.github.io"><i class="fas fa-home"></i>&emsp;ACCUEIL</a></div>
+						<div class="navbarLink anchor"><a href="#about"><i class="fas fa-user"></i>&emsp;PROFIL</a></div>
+						<div class="navbarLink anchor"><a href="#skills"><i class="fas fa-book"></i>&emsp;COMPETENCES</a></div>
+						<div class="navbarLink anchor"><a href="#experience"><i class="fas fa-suitcase"></i>&emsp;PARCOURS</a></div>
+						<div class="navbarLink anchor"><a href="#contact"><i class="fas fa-address-book"></i>&emsp;ME CONTACTER :</a></div>														
 				</nav>		
 			</div>
 			<button id="hamburger-button">&#9776;</button>
@@ -56,6 +56,7 @@
 
 		<!--Profil-->
 		<section id="about">
+			<div>
 			<h2>Mon profil</h2>
 
 			<div class=row>
@@ -79,10 +80,12 @@
 					<p>Jusqu'à maintenant, je travaillais dans les métiers de bouche (pâtissier de restaurant, cuisinier, commis de cuisine...) ce qui m'a permis d'apprendre le courage, la conscience professionnelle et le travail d'équipe. J'y ai vécu de belles années, mais je suis à un âge ou je cherche un emploi qui me plaira suffisamment pour y travailler jusqu'à ma retraite, c'est pourquoi je souhaite partir dans le domaine du développement.</p>
 				</div>	
 			</div>
+		</div>
 		</section>
 
 		<!--Compétences-->
-		<section id="skills">			
+		<section id="skills">	
+		<div>		
 			<h2>Mes compétences</h2>
 
 			<div class="blue-background">
@@ -111,12 +114,13 @@
 					<li>Anglais</li>
 					<li>Espagnol</li>
 				</ul>
-				
+				</div>
 			</div>
 		</section>
 
 		<!--Timeline-->
-		<section id="experience">
+		<section >
+			<div id="experience">
     			<h2>Mon parcours</h2>
 
     		<div class="timeline">
@@ -212,7 +216,8 @@
       					</div>
     				</div> 
     			</div>   
-			</div>   
+			</div>  
+			</div> 
 		</section>
 
 		<!--Projets : section vide - invisible pour le moment
@@ -237,18 +242,18 @@
   						method="POST"
 					>
 						<label>
-    						<input type="text" name="_replyto" placeholder="Votre nom" required>
+    						<input type="text" name="name" placeholder="Votre nom" required>
   						</label>
   						<label>
-    						<input type="text" name="_replyto" placeholder="Votre email" required>
+    						<input type="email" name="_replyto" placeholder="Votre email" required>
   						</label>
   						<label>
-    						<textarea name="message" placeholder="Votre message"></textarea>
+    						<textarea name="message" placeholder="Votre message" ></textarea>
   						</label>
 
   <!-- your other form fields go here -->
 
-  						<button type="submit" style="width: 100%">Envoyer</button>
+  						<button type="submit" style="width: 100%" target=”_blank”>Envoyer</button>
 					</form>
 				</div>
 			</section>

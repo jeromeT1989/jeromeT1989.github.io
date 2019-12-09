@@ -18,6 +18,7 @@ h2 {
 	color: #597081;
 	text-align: center;
 	padding: 1em 0;
+	margin: 0; 
 }
 
 h3 {
@@ -32,6 +33,7 @@ p {
 ul {
 	list-style: none;
 }
+
 
 a.anchor {
     display: block;
@@ -166,9 +168,8 @@ nav {
 	text-align: center;
 }
 
-#about {
-	margin-top: -70px;
-	padding-top: 70px;
+#about #skills #experience #contact {
+	position: relative;
 }
 
 #about .column-left {
@@ -208,17 +209,11 @@ nav {
 	justify-content: space-around;
 }
 
-#skills {
-	margin-top: -70px;
-	padding-top: 30px;
-	height: 450px;
-}
 
 #skills h2 {
-	background-color: #274156;
 	color: #FFF;
-	margin: 1em 0 0 0;
   	padding-bottom: 0;
+  	background-color: #274156;
   }
 }
 
@@ -244,12 +239,8 @@ nav {
 
 #experience {
 	background-color: #eee;
-	margin-top: -70px;
-	padding-top: 70px;
-}
-
-#experience h2 {
-	padding-top: 0;
+/*	margin-top: -70px;
+	padding-top: 70px;*/
 }
 
 .timeline-text {
@@ -465,8 +456,8 @@ form button, input, textarea {
 	}
 	#about .column-right {
 		width: 100%;
-		margin: 20px;
-		padding: 15px;
+
+		padding: 35px;
 	}
 	.blue-background {
 		flex-direction: column;
@@ -519,10 +510,6 @@ form button, input, textarea {
 	.identity {
 		visibility: hidden;
 		display: none;
-	}
-
-  	#skills {
-		height: 700px;
 	}
 
   	.timeline::before {
